@@ -1,0 +1,9 @@
+Describe what your Web Service will do in 1 sentence.
+
+A voting system on your favorite cat.
+https://www.npmjs.com/package/haiku-random
+
+
+Query String: vote up or down on random cat images
+URL Parameters: cat generator
+Post Data: 
