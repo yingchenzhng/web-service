@@ -5,9 +5,12 @@ const axios = require('axios');
 const path = require('path');
 const dotenv = require('dotenv');
 const { TheCatAPI } = require("@thatapicompany/thecatapi");
+const cors = require("cors"); 
+app.use(cors());
 
 const app = express();
 const PORT = process.env.PORT || 3004;
+
 
 let cats = {
 ABYSSINIAN : "abys",
